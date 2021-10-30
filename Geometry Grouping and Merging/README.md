@@ -38,3 +38,5 @@ this example:<br><br>
 
 When using a group, we can still refer to, modify, and position the individual geometries.
 <img src="https://github.com/cg2021c/threejs-presentation-anak-ambis/blob/main/Geometry%20Grouping%20and%20Merging/image/picture2.jpg?raw=true">
+
+## Merging multiple meshes into a single mesh
