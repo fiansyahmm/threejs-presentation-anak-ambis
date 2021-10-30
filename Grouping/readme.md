@@ -1,5 +1,6 @@
-# Three.js Starter
-Courtesy of Bruno Simon of https://threejs-journey.xyz/
+# Grouping & Merging
+The first approach we explain uses built-in functionality from Three.js to group and merge
+existing geometries. This creates new meshes and geometries from existing objects
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
