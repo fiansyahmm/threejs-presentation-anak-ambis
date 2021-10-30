@@ -8,4 +8,5 @@ Creating groups is very easy. Every mesh you create can contain child elements, 
 be added using the add function. The effect of adding a child object to a group is that we
 can move, scale, rotate, and translate the parent object, and all the child objects will also be
 affected. Let's look at an example [01-grouping.html](https://cg2021c.github.io/threejs-presentation-anak-ambis/learning-threejs-master/chapter-08/01-grouping.html). The following screenshot shows 
-this example:
+this example:<br><br>
+<img src="https://github.com/cg2021c/threejs-presentation-anak-ambis/blob/main/Geometry%20Grouping%20and%20Merging/image/picture1.jpg?raw=true">
