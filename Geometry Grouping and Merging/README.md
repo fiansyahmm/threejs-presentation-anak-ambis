@@ -44,9 +44,9 @@ With using THREE.Geometry.merge(), we can merge geometries together and create a
 With the slider in the menu, you can set the number of cubes we want in the scene and redraw the scene by clicking on the redraw button. Depending on the
 hardware you're running, you'll see a performance degradation as the number of cubes increases. In our case, as you can see in the following screenshot, this happens at around 10,839 objects, where the refresh rate drops to around 8 Frames Per Second (fps) instead of the normal 60 fps,With THREE.Geometry.merge(), we can solve this problem.<br>
 <br>
-<b>The Screenshoot Before using THREE.Geometry.merge()<b/>
+**The Screenshoot Before using THREE.Geometry.merge()**
 <img src="https://github.com/cg2021c/threejs-presentation-anak-ambis/blob/main/Geometry%20Grouping%20and%20Merging/image/picture3.jpg?raw=true">
-<b>The Screenshoot After using THREE.Geometry.merge()<b/>
+**The Screenshoot After using THREE.Geometry.merge()**
 <img src="https://github.com/cg2021c/threejs-presentation-anak-ambis/blob/main/Geometry%20Grouping%20and%20Merging/image/picture4.jpg?raw=true">
 <br>
 As you can see, we can easily render 20,000 cubes without any drop in performance. To do
