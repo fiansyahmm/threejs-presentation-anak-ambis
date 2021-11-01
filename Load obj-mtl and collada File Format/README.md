@@ -76,11 +76,10 @@ objmtl_loader.load("./butterfly.obj", "./butterfly.mtl", function (object) {
 
 - The material of the .mtl file is using the texture and color from .png file [butterfly.png](butterfly.png)
 
+#### Butterfly obj without THREE.Material
+![image](https://user-images.githubusercontent.com/55375390/139661140-a54e90b8-5d65-4b2d-8532-c09a7cdf4d2d.png)
 
-- Butterfly obj without THREE.Material
-![image](https://user-images.githubusercontent.com/55375390/139660834-6f1d9fb0-8df7-4bc7-bddf-e104c895dfc7.png)
-
-- Butterfly obj with THREE.Material
-![image](https://user-images.githubusercontent.com/55375390/139660755-a56e4f6b-5564-47b0-b978-78dac5ab0d78.png)
+#### Butterfly obj with THREE.Material
+![image](https://user-images.githubusercontent.com/55375390/139661204-cf9d1979-88e5-40fd-9f11-e45b254c4c64.png)
 
 # Load Collada File Format
