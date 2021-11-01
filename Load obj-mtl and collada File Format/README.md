@@ -74,7 +74,7 @@ objmtl_loader.load("./butterfly.obj", "./butterfly.mtl", function (object) {
 });
 ```
 
-- The material of the .mtl file is using the texture and color from .png file [butterfly.png](butterfly.png)
+- The material of the .mtl file is using the texture and color from .png file [butterflywings.png](butterflywings.png)
 
 #### Butterfly obj without THREE.Material | Butterfly obj with butterfly.mtl
 ![image](https://user-images.githubusercontent.com/55375390/139661140-a54e90b8-5d65-4b2d-8532-c09a7cdf4d2d.png)
