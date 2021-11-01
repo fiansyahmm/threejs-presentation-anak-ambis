@@ -76,6 +76,11 @@
 
         function render() {
             stats.update();
+            
+            if (mesh) {
+                mesh.rotation.y += 0.006;
+            }
+            
             // render using requestAnimationFrame
             requestAnimationFrame(render);
             webGLRenderer.render(scene, camera);

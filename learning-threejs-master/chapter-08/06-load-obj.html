@@ -77,14 +77,14 @@
         var mesh;
 
         var loader = new THREE.OBJLoader();
-        loader.load('../assets/models/pinecone.obj', function (loadedMesh) {
+        loader.load('../assets/models/butterfly.obj', function (loadedMesh) {
             var material = new THREE.MeshLambertMaterial({color: 0x5C3A21});
 
             // loadedMesh is a group of meshes. For
             // each mesh set the material, and compute the information
             // three.js needs for rendering.
             loadedMesh.children.forEach(function (child) {
-                child.material = material;
+                // child.material = material;
                 child.geometry.computeFaceNormals();
                 child.geometry.computeVertexNormals();
             });
@@ -104,7 +104,7 @@
 
             if (mesh) {
                 mesh.rotation.y += 0.006;
-                mesh.rotation.x += 0.006;
+                // mesh.rotation.x += 0.006;
 //                mesh.rotation.y+=0.006;
             }
 
