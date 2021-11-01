@@ -120,7 +120,7 @@
             return stats;
         }
 
-        const loaderGLTF = new THREE.GLTFLoader();
+        const loaderGLTF = new THREE.glTFLoader();
         loaderGLTF.load( 'mymodel.glb', function ( gltf ) {
             const checkerMesh = gltf.scene.children.find((child) => child.name === "Checker");
             checkerMesh.scale.set(checkerMesh.scale.x * 0.4, checkerMesh.scale.y * 0.4, checkerMesh.scale.z * 0.4);
