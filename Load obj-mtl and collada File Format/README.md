@@ -34,11 +34,6 @@ obj_loader.load("./butterfly.obj", function (object) {
 });
 ```
 
-- Butterfly obj without THREE.Material
-  ...
-- Butterfly obj with THREE.Material
-  ...
-  <br>
 - The result of obj file is geometry with flat material. So we need to give it manually in javascript to make it colorfull. Here we use THREE.MeshLambertMaterial with yellow color.
 - Because the object that we have loaded is a group of meshes, we have to loop through all the meshes to give it a material that we want.
 
@@ -79,9 +74,13 @@ objmtl_loader.load("./butterfly.obj", "./butterfly.mtl", function (object) {
 });
 ```
 
-- Butterfly obj with butterfly.mtl
-  ...
-  <br>
 - The material of the .mtl file is using the texture and color from .png file [butterfly.png](butterfly.png)
+
+
+- Butterfly obj without THREE.Material
+![image](https://user-images.githubusercontent.com/55375390/139660834-6f1d9fb0-8df7-4bc7-bddf-e104c895dfc7.png)
+
+- Butterfly obj with THREE.Material
+![image](https://user-images.githubusercontent.com/55375390/139660755-a56e4f6b-5564-47b0-b978-78dac5ab0d78.png)
 
 # Load Collada File Format
